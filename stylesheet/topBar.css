@@ -1,0 +1,72 @@
+body {
+    background-color: #2D323F;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.TopBar {
+    display: flex;
+    font-size: small;
+    background-color: #2C2D31;
+    color :white;
+    height: 85px;
+    font-family : "Kadwa", serif;
+    width:100%;
+}
+
+#LeftTopBar {
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-around;
+}
+#pdpTitle {
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    color: white;
+}
+#slash {
+    cursor: default;
+    user-select: none;
+}
+#about {
+    background-color: #2C2D31;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#RightTopBar {
+    margin-left: auto;
+    width:200px;
+    align-content: center;
+    justify-content:center;
+    text-decoration: none;
+}
+#logIn,#signUp{
+    font-family: "Inter", serif;
+    border-radius: 5px;
+    padding:5px 20px;
+    color: white;
+    text-decoration: none;
+}
+#logIn {
+    background-color: #2C2D31;
+    margin-left: 15px;
+    cursor: pointer;
+    border-color: white;
+    border-width: 1px;
+}
+#logIn:hover {
+    background-color: #4c4d54;
+}
+#signUp {
+    background-color: #705353;
+    cursor: pointer;
+    border-width: 0px;
+}
+#signUp:hover {
+    background-color: #936d6d;
+}
